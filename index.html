@@ -25,7 +25,7 @@
 	
 	<div class="container" id="main">
 
-		<div class="navbar navbar-fixed-top header">
+		<div class="navbar navbar-inverse navbar-fixed-top header">
 			<div class="container">
 			<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
 				<span class="icon-bar"></span>
@@ -36,69 +36,63 @@
 	
 				<a class="navbar-brand" href="#"><img src="images/logo3.jpg " alt="BloodConnect"></a>
 
-				<div class="nav-collapse collapse navbar-responsive-collapse">
+				<div class="nav-collapse collapse navbar-responsive-collapse" id="mynavbar">
 					
-					<ul class="nav navbar-nav ">
+					<ul class="nav navbar-nav pull-left ">
 						<li class="active">
 							<a  class="navbar-brand" href="#">Home</a>
 						</li>
-						<li >
-							<a  class="navbar-brand" href="#">About us</a>
-						</li>
+						
 						<li >
 							<a  class="navbar-brand" href="#">Sponsor us</a>
 						</li>
-						<li >
-							<a  class="navbar-brand" href="#">Contact us</a>
-						</li>
+						
 
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Raise a request<strong class="caret"></strong></a>
-
-							<ul class="dropdown-menu">
+						<li class="dropdown" id="mydrop">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Get involved<strong class="caret"></strong></a>
+							
+							<ul class="dropdown-menu " >
 								<li	>
-									<a href="#">Physics</a>
+									<a href="#">Join our team</a>
 								</li>
 								<li	>
-									<a href="#">Physics</a>
+									<a href="#">Donate Blood</a>
 								</li>
 								<li	>
-									<a href="#">Physics</a>
+									<a href="#">Organize a camp</a>
 								</li>
 								<li	>
-									<a href="#">Physics</a>
+									<a href="#">Organize a awareness system</a>
 								</li>
-								<li	>
-									<a href="#">Physics</a>
-								</li>
+								
 
 							</ul>
 						</li>
 					</ul><!-- end of nav -->
 
-					<form class="navbar-form pull-left">
-						<input type="text" placeholder="search" id="search"></input>
+					<form class="navbar-form pull-right">
+						<input type="text" placeholder="search for donor" id="search"></input>
 						<button type="submit" class="btn btn-default">
 							<span class="glyphicon glyphicon-search"></span>
 						</button>
 					</form>
 
 
-					<ul class="nav navbar-nav pull-right">
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							<!-- <span class="glyphicon glyphicon-user"> </span>-->Get Involved<strong class="caret"></strong>
-						</a>
-
-						<ul class="dropdown-menu">
-							<li>
-							<a href="#"><span class="glyphicon glyphicon-off"></span>Sign out</a>
-							</li>
-						</ul><!-- end of drop down menu -->
-
-					</li> <!-- end of dropdown-->
-
-					</ul><!-- end of nav -->
+				<!-- 	<ul class="nav navbar-nav pull-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<span class="glyphicon glyphicon-user"> </span>Get Involved<strong class="caret"></strong>
+					</a>
+				
+					<ul class="dropdown-menu">
+						<li>
+						<a href="#"><span class="glyphicon glyphicon-off"></span>Sign out</a>
+						</li>
+					</ul>end of drop down menu
+				
+				</li> end of dropdown
+				
+				</ul>end of nav -->
 
 				</div><!-- end of nav-collapse -->
 				
@@ -119,16 +113,21 @@
 
 
 				<div class="carousel-inner">
-				<div class="item active" id="slide1">
-
+				<div class="item active" id="slide2" >
+<!-- <img src="images/slide34.jpg" class="img-responsive"> -->
 					<div class="carousel-caption">
-						<h4>Blood cannot be manufactured , it can come from volunteer donors</h4>
-						<p></p>
-					</div><!-- end carousel-caption-->
+						
+					<h1>Spare only fifteen minutes and save one life.</h1>
+					<!-- 	<h3> The blood you donate gives someone another chance at life. One day that someone may be a close relative, a friend, a loved one — or even you </h3> 
+										 -->					</div><!-- end carousel-caption-->
 				</div><!-- end item -->
 
-				<div class="item " id="slide2">
+				<div class="item " id="slide1">
 					<div class="carousel-caption">
+
+					<h2>Blood cannot be manufactured , it can come from volunteer donors</h2> 
+					<br>
+					<br>
 						<h4>1 pint of blood can save upto 3 lives </h4>
 						
 					</div><!-- end carousel-caption-->
@@ -168,7 +167,8 @@
 				<p class="lead">
 				We are constantly looking for support from people. If you are passionate about the cause, you can adopt any of our projects/ donate for our regular activities. If you have expertise in some aspects, you can also provide thought leadership to our team.</p>
 			
-			<a href="" class="btn btn-large btn-primary" id="alertMe">Register </a>
+
+			<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click here to register!</a>
 			<a href="" class="btn btn-large btn-link">know more...</a>
 		</div><!-- end well -->
 		
@@ -238,21 +238,20 @@
 
 
 <hr>
+
 <div class="row" id="moreInfo">
 <div class="col-sm-6">
 <div class="tabbable">
-<h4>There are two ways of donating blood</h4>
+<h2>There are two ways of donating blood</h2>
 	<ul class="nav nav-tabs">
 		<li class="active"><a href="#tab1" data-toggle="tab">Whole blood donation</a></li>
 		<li><a href="#tab2" data-toggle="tab">Component donation</a></li>
 	</ul>
 	<div class="tab-content">
 		<div class="tab-pane active" id="tab1">
-			<!-- <h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>More like our favourite surf spot</small></h4>
 			
-			<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe> -->
 			
-			<h4>Red blood cells have a shelf-life of 35 days</h4>
+			<h2>Red blood cells have a shelf-life of 35 days</h2>
 			<img src="images/wholeblood.jpg	" alt="">
 			<p>A whole blood donation is when blood is drawn from the vein directly into the blood storage bag.</p>
 			<p>
@@ -264,7 +263,7 @@
 		</div><!-- end tab-pane -->
 		
 		<div class="tab-pane" id="tab2">
-			<h4>Platelets only have a shelf-life of 7 days.</h4>
+			<h2>Platelets only have a shelf-life of 7 days.</h2>
 			
 			<!-- <img src="http://placehold.it/140" class="thumbnail pull-left" alt="Placeholder image"> -->
 						<img src="images/cmp.jpg	" alt="">
@@ -317,25 +316,103 @@
 
 <hr>
 
+
+
+<div class="modal fade" id="myModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal">&times;</button>
+				
+				<h4 class="modal-title">Register for donation</h4>
+			</div><!-- end modal-header -->
+			<div class="modal-body">
+				<h4>By Registering here you will become member of our organisation</h4>
+				
+				<p>You will be contacted in time of need...</p>
+				
+				
+				
+				<p><small class="text-muted">Check eligiblity criteria before registering...</small><a href="#">check here </a></p>
+				
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label class="col-lg-2 control-label" for="inputName">Name</label>
+						<div class="col-lg-10">
+							<input class="form-control" id="inputName" placeholder="Name" type="text">
+						</div>
+					</div>
+
+					
+					<div class="form-group">
+						<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+						<div class="col-lg-10">
+							<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-lg-2 control-label" for="contactno">Contact no</label>
+						<div class="col-lg-10">
+							<input class="form-control" id="inputEmail" placeholder="Contact no" type="number">
+						</div>
+					</div>
+					
+				
+					<button class="btn btn-success pull-right" type="submit">Register!</button>
+					
+				</form>
+			</div><!-- end modal-body -->
+			
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+			</div><!-- end modal-footer -->
+		</div><!-- end modal-content -->
+	</div><!-- end modal-dialog -->
+</div><!-- end myModal -->
+
+
+<div class="row">
+<div class="col-sm-12">
+		<h1>Upcoming camp on 20 march 2016...</h1>
+</div>
+				<div class="col-sm-6">	
+				 <img src="images/upcomingcamp.jpg"  class="img-responsive"alt="Upcoming camp" >
+
+				</div>
+
+				<div class="col-sm-6 upcoming">
+				<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>Looking for your voluntary prticipation..</small></h4>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.755609856559!2d77.59584318403948!3d12.923422923368513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1679155555a5%3A0x29381f5a34c8e322!2sJain+College!5e0!3m2!1sen!2sin!4v1458282424731" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<br>
+				<br>
+				<br>
+				<p>We are organising camp for blood donation voluntary donors can come forward.</p>
+				<p>Address : Jain College South Bangalore</p>
+				<p>Contact no:9261133150.</p>
+
+					
+				</div>
+</div>
 <footer>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-2">
-			<h6>Copyright &copy; 2013 {name}</h6>
+			
 			</div><!-- end col-sm-2 -->
 			
 			<div class="col-sm-4">
 				<h6>About Us</h6>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>India faces a shortage of 3 million blood units in a year. This shortage can be easily eliminated if only an additional 2% of India's youth donated blood, just once in a year. 
+                  BloodConnect has been launched with the objective of uniting the youth to solve this problem</p>
 			</div><!-- end col-sm-4 -->
 			
 			<div class="col-sm-2">
-				<h6>Navigation</h6>
+				<h6>Learn more about</h6>
 				<ul class="unstyled">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#">List of our past activities</a></li>
+					<li><a href="#">our past resultss</a></li>
+					<li><a href="#">Organise blood donation camp</a></li>
+					<li><a href="#">Support us</a></li>
 				</ul>
 			</div><!-- end col-sm-2 -->
 			
