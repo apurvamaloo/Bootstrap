@@ -53,6 +53,12 @@ ul.unstyled  {
    list-style: none;
    padding: 0;
 }
+.unstyled  a img
+{
+   height: 25px;
+   width: 40px;
+   margin-top: 10px;
+}
 
 /* --------------------------------------
    Typography
@@ -103,6 +109,11 @@ ul.unstyled  {
       
 
    }
+   #mydrop
+   {
+      line-height: 20px;
+      font-size: 18px;
+   }
 
    
   /*  #mynavbar li a
@@ -130,7 +141,7 @@ ul.unstyled  {
    height: 400px;
 }
 
-carousel-caption {
+.carousel-caption {
    font-size: 24px;
 }
 

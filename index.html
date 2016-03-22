@@ -49,7 +49,7 @@
 						
 
 						<li class="dropdown" id="mydrop">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Get involved<strong class="caret"></strong></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Get involved<span class="caret"></span></a>
 							
 							<ul class="dropdown-menu " >
 								<li	>
@@ -68,15 +68,30 @@
 
 							</ul>
 						</li>
-					</ul><!-- end of nav -->
 
-					<form class="navbar-form pull-right">
+
+						
+					</ul><!-- end of nav -->
+					
+
+
+					<!-- <form class="navbar-form pull-right">
 						<input type="text" placeholder="search for donor" id="search"></input>
 						<button type="submit" class="btn btn-default">
 							<span class="glyphicon glyphicon-search"></span>
 						</button>
 					</form>
-
+					 -->
+					  <form class="navbar-form navbar-right pull-right" role="search" id="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for donor">
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default">
+                        <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </form>
 
 				<!-- 	<ul class="nav navbar-nav pull-right">
 				<li class="dropdown">
@@ -393,8 +408,9 @@
 					
 				</div>
 </div>
+</div>
 <footer>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-2">
 			
@@ -414,14 +430,15 @@
 					<li><a href="#">Organise blood donation camp</a></li>
 					<li><a href="#">Support us</a></li>
 				</ul>
+				<h6>Blood connect @ all  copyrights reserved</h6>
 			</div><!-- end col-sm-2 -->
 			
 			<div class="col-sm-2">
 				<h6>Follow Us</h6>
 				<ul class="unstyled">
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Facebook</a></li>
-					<li><a href="#">Google Plus</a></li>
+					<li><a href="#"><img src="images/t.png" alt="Twitter"></a></li>
+					<li><a href="#"><img src="images/fb.jpg" alt="Facebook"></a></li>
+					<li><a href="#"><img src="images/g.jpg" alt="Google +"></a></li>
 				</ul>
 			</div><!-- end col-sm-2 -->
 			
@@ -429,9 +446,10 @@
 				<!-- <h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Brad</h6> -->
 			</div><!-- end col-sm-2 -->
 		</div><!-- end row -->
+
 	</div><!-- end container -->
 </footer>
-	</div><!-- end of container -->
+	<!-- </div>end of container -->
 	<script src="http://code.jquery.com/jquery.js"></script>
 	
 	<!-- If no online access, fallback to our hardcoded version of jQuery -->
